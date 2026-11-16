@@ -64,10 +64,9 @@ void loop()
     lcd.print("Erro na requisicao!");
   }
 
-  // Limpa o buffer do Serial
   while (Serial.available() > 0) {
     Serial.read();
   }
   
-  delay(10000); // Aguarda 10 segundos antes de permitir nova entrada
+  delay(10000); 
 }

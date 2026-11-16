@@ -96,5 +96,4 @@ void Api::filtrandoExibicaoRespostas(String codigoJson, LiquidCrystal_I2C &lcd)
     lcd.print(sensacaoTermica);
     lcd.print((char)223);
     lcd.print("C");
-   
 }
